@@ -3,7 +3,7 @@ Software tool for managing virtual machines and organizing secure connections to
     SETTINGS:
     Create a database in the PostgreSQL DBMS according to the config.py file in the backend section.
     Example:
-    SQLALCHEMY_DATABASE_URI = 'postgresql://<login>:<password>!@localhost:5433/attackbase' 
+    SQLALCHEMY_DATABASE_URI = 'postgresql://login:password!@localhost:5433/attackbase' 
 
     Make the deploy.sh and start-stop.sh scripts executable –
     chmod +x (script name) 
