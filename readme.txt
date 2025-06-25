@@ -1,5 +1,5 @@
 1) Создайте базу в СУБД PostgreSQL в соответствии с файлом config.py в разделе backend
-Пример:<SQLALCHEMY_DATABASE_URI = 'postgresql://attack_admin:qazwsxedc_2837!@localhost:5433/attackbase'>
+Пример:<SQLALCHEMY_DATABASE_URI = 'postgresql://login:password!@localhost:5433/attackbase'>
 2) Сделайте скрипты deploy.sh и start-stop.sh исполняемыми - <chmod +x (имя скрипта)>
 3) Запустите скрипт deploy.sh - он проверит и установит зависимости необходимые для запуска программного средства
 4) Запустите скрипт start-stop.sh - следуйте его инструкциям для запуска/остановки программного средства
