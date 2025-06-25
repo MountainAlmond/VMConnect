@@ -1,0 +1,111 @@
+/* AdminPanel.css */
+
+.admin-panel {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .admin-create-user-form {
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .admin-button-create {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .admin-button-create:hover {
+    background-color: #218838;
+  }
+  
+  .admin-users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .admin-users-table th,
+  .admin-users-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .admin-users-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .admin-button-delete {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .admin-button-delete:hover {
+    background-color: #c82333;
+  }
+
+  /* Стили для кнопки "О программе" */
+.admin-about-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff; /* Синий цвет */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-about-button:hover {
+  background-color: #0056b3; /* Темно-синий цвет при наведении */
+  transform: translateY(-2px); /* Легкий эффект подъема */
+}
+
+.admin-about-button:active {
+  transform: translateY(0); /* Возвращение на место при клике */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Уменьшение тени */
+}

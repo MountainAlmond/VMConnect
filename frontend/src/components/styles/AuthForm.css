@@ -1,0 +1,90 @@
+/* AuthForm.css */
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #6c63ff;
+    outline: none;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .button-login {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #005a66;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button-login:hover {
+    background: #5a51e0;
+  }
+  
+  .button-login:disabled {
+    background: #b3b3b3;
+    cursor: not-allowed;
+  }
+  
+  .link-button {
+    background: none;
+    border: none;
+    color: #6c63ff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    text-decoration: underline;
+  }
+  
+  .link-button:hover {
+    color: #5a51e0;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555555;
+  }

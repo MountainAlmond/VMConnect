@@ -1,0 +1,31 @@
+/* LanguageSwitcher.css */
+
+.language-switcher {
+    display: inline-block;
+  }
+  
+  .language-switcher .active {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .language-switcher .active:hover {
+    border-color: #666666;
+    transform: scale(1.1); /* Небольшое увеличение при наведении */
+  }
+  
+  .language-switcher .active img {
+    width: 24px;
+    height: 16px;
+    object-fit: cover;
+  }

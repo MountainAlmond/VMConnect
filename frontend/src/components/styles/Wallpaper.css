@@ -1,0 +1,15 @@
+.wallpaper {
+    /* задаёт путь до файла */
+    background-image: url("../../../public/assets/background.png");
+    /* задает стартовое положение изображения на странице */
+    background-size: cover;
+    /* если блоку не задать высоту, то контент не отобразится */
+    height: 100vh;
+    clear: both;
+    position: relative;
+    
+    
+  
+    /* возможна также и короткая запись данных свойств */
+    
+  }

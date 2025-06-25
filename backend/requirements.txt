@@ -1,0 +1,13 @@
+flask
+werkzeug
+Flask-JWT-Extended
+Flask-CORS
+psycopg2-binary
+Flask-Bcrypt
+Flask-SQLAlchemy
+Flask-Migrate
+flask-socketio
+eventlet
+flask-cors
+gevent
+gevent-websocket

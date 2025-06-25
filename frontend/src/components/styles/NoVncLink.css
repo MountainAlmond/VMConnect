@@ -1,0 +1,63 @@
+/* NoVncLink.css */
+
+.novnc-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .vm-controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .vm-control-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vm-control-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .novnc-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .novnc-button:hover {
+    background-color: #218838;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  p.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
