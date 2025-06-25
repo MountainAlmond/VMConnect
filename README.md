@@ -38,11 +38,11 @@ http {
 1. Login page
 ![Login page](work_examples/1.jpg)
 2. Admin interface
-[Admin interface](work_examples/2.jpg)
+![Admin interface](work_examples/2.jpg)
 3. User interface
-[User interface](work_examples/3.jpg)
+![User interface](work_examples/3.jpg)
 4. Enter password noVNC
-[noVNC password](work_examples/4.jpg)
+![noVNC password](work_examples/4.jpg)
 5. Work with VM over noVNC
-[Work with VM](work_examples/5.jpg)
+![Work with VM](work_examples/5.jpg)
 
